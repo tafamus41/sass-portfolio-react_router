@@ -12,7 +12,6 @@ const Home = () => {
         <h1>
           Wednesday<span>Addams</span>
         </h1>
-        {/* <hr /> */}
         <p>Full Stack Developer</p>
       </main>
       <footer className="footer">

@@ -29,7 +29,7 @@ const MyNavbar = () => {
               <NavLink
                 style={({ isActive }) => ({ color: isActive && "orange" })}
                 className="nav-link"
-                to="/projets"
+                to="/projects"
               >
                 MY PROJECTS
               </NavLink>
