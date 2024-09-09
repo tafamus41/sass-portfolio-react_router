@@ -8,7 +8,6 @@ const MyNavbar = () => {
     <div>
         <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          
           <Nav className="me-auto">
             <NavLink style={({ isActive }) => ({ color: isActive && "orange" })}
               className="nav-link"
