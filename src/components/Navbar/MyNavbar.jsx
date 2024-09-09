@@ -1,17 +1,17 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+// import { Container } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
+import "./MyNavbar.scss"
 
 const MyNavbar = () => {
   return (
     <div>
-      <Navbar expand="lg">
-        <Container>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+      <Navbar id="Navbar">
+          {/* <Navbar.Toggle /> */}
+          {/* <Navbar.Collapse id="basic-navbar-nav"> */}
+            <Nav className="pages">
               <NavLink
                 style={({ isActive }) => ({ color: isActive && "orange" })}
                 className="nav-link"
@@ -41,8 +41,7 @@ const MyNavbar = () => {
                 CONTACT
               </NavLink>
             </Nav>
-          </Navbar.Collapse>
-        </Container>
+          {/* </Navbar.Collapse> */}
       </Navbar>
     </div>
   );
