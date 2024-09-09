@@ -1,22 +1,42 @@
-.homePage{
-    height: 85vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.homePage {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  h1 {
+    font-size: 3rem;
+    border-bottom: 2px solid white;
+    width: 100%;
+  }
+  h1 span {
+    color: red;
+  }
+}
+.footer {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+  .copyright{
     color:white;
-    font-size: 1.5rem;
-    h1{
-       font-size: 3rem;
-       border-bottom: 2px solid white;
-       width: 100%;
-    }
-    // hr{
-    //     border:2px solid rgb(255, 255, 255);
-    //     width: 100%;
-    // }
-    h1 span{
-        color:red;
+  }
+  .socialIcons {
+    display: flex;
+    gap:0.5rem;
+    font-size: 3rem;
+    .child{
+        border:1px solid white;
+        padding: 0.6rem;
+        border-radius: 50%;
+        background-color: white;
+        color:black;
     }
 }
+}
+
+

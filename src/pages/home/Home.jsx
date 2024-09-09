@@ -15,12 +15,12 @@ const Home = () => {
         {/* <hr /> */}
         <p>Full Stack Developer</p>
       </main>
-      <footer>
-        <div>
-          <SlSocialTwitter />
-          <SlSocialFacebook />
-          <SlSocialInstagram />
-          <SlSocialGithub />
+      <footer className="footer">
+        <div className="socialIcons">
+          <SlSocialTwitter className="child"/>
+          <SlSocialFacebook className="child"/>
+          <SlSocialInstagram className="child"/>
+          <SlSocialGithub className="child"/>
         </div>
 
         <div class="copyright">&copy; Copyright 2023</div>
