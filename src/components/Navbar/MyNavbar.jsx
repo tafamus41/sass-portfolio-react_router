@@ -11,7 +11,7 @@ const MyNavbar = () => {
       <Navbar id="Navbar">
           {/* <Navbar.Toggle /> */}
           {/* <Navbar.Collapse id="basic-navbar-nav"> */}
-            <Nav className="pages">
+            {/* <Nav className="pages"> */}
               <NavLink
                 style={({ isActive }) => ({ color: isActive && "orange" })}
                 className="nav-link"
@@ -40,7 +40,7 @@ const MyNavbar = () => {
               >
                 CONTACT
               </NavLink>
-            </Nav>
+            {/* </Nav> */}
           {/* </Navbar.Collapse> */}
       </Navbar>
     </div>

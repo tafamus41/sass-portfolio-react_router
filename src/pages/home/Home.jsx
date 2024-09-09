@@ -1,16 +1,32 @@
-
-import React from 'react';
-import "./Home.scss"
-
+import React from "react";
+import "./Home.scss";
+import { SlSocialTwitter } from "react-icons/sl";
+import { SlSocialFacebook } from "react-icons/sl";
+import { SlSocialInstagram } from "react-icons/sl";
+import { SlSocialGithub } from "react-icons/sl";
 const Home = () => {
   return (
-    <div className='homePage'>
+    <div>
+      <main className="homePage">
         <p>Hi!My Name Is</p>
-        <h1>Wednesday<span>Addams</span></h1>
-        <hr/>
+        <h1>
+          Wednesday<span>Addams</span>
+        </h1>
+        {/* <hr /> */}
         <p>Full Stack Developer</p>
-    </div>
-  )
-}
+      </main>
+      <footer>
+        <div>
+          <SlSocialTwitter />
+          <SlSocialFacebook />
+          <SlSocialInstagram />
+          <SlSocialGithub />
+        </div>
 
-export default Home
+        <div class="copyright">&copy; Copyright 2023</div>
+      </footer>
+    </div>
+  );
+};
+
+export default Home;
