@@ -8,7 +8,7 @@ import { SlSocialGithub } from "react-icons/sl";
 const About = () => {
   return (
     <div>
-      <main className="bio">
+      <div className="bio">
         <h2 className="bioTitle">BIO</h2>
         <p>
           Wednesday Addams is a fictional character from the Addams Family
@@ -22,7 +22,41 @@ const About = () => {
           (1993), and Jenna Ortega in the streaming television series Wednesday
           (2022).
         </p>
-      </main>
+      </div>
+      <main class="about">
+      <div class="about__container">
+        <div class="about__job">
+          <h2 class="text-secondary">2020 - 2021</h2>
+          <h3>CLARUSWAY</h3>
+          <h6>Instructor & Full Stack Developer</h6>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            vero dolores eum ut, culpa ullam quis quasi exercitationem in
+            adipisci.
+          </p>
+        </div>
+        <div class="about__job">
+          <h2 class="text-secondary">2019 - 2020</h2>
+          <h3>Google</h3>
+          <h6>Front End Developer</h6>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            vero dolores eum ut, culpa ullam quis quasi exercitationem in
+            adipisci.
+          </p>
+        </div>
+        <div class="about__job">
+          <h2 class="text-secondary">2017 - 2019</h2>
+          <h3>The Best Websites Co.</h3>
+          <h6>Front End Developer</h6>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            vero dolores eum ut, culpa ullam quis quasi exercitationem in
+            adipisci.
+          </p>
+        </div>
+      </div>
+    </main>
       <footer className="footer-vertical">
         <div className="socialIcons">
           <SlSocialTwitter className="child"/>

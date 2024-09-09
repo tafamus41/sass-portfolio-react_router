@@ -1,5 +1,5 @@
 .bio{
-    height: 80vh;
+    height: 50vh;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -38,3 +38,24 @@ color:orange;
         color:white;
       }
     }
+    .about {
+        width: 70%;
+        margin: 2rem auto;
+      
+        .about__job {
+          // border: 2px solid red;
+          margin: 1rem;
+          background-color: lighten(#272727, 10%);
+          padding: 1rem;
+          border-bottom: 5px solid #ff652f;
+          border-radius: 5px;
+          h2,h3{
+              margin: 0.5rem 0;
+          }
+      
+          h6{
+              margin: 0.3rem 0;
+          }
+        }
+      }
+      
