@@ -14,7 +14,7 @@ const Home = () => {
         </h1>
         <p>Full Stack Developer</p>
       </main>
-      <footer className="footer">
+      <footer className="footer-horizontal">
         <div className="socialIcons">
           <SlSocialTwitter className="child"/>
           <SlSocialFacebook className="child"/>

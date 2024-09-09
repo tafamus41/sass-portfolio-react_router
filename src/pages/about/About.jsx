@@ -1,10 +1,15 @@
 import React from "react";
 import "./About.scss";
+import { SlSocialTwitter } from "react-icons/sl";
+import { SlSocialFacebook } from "react-icons/sl";
+import { SlSocialInstagram } from "react-icons/sl";
+import { SlSocialGithub } from "react-icons/sl";
+
 const About = () => {
   return (
     <div>
       <main className="bio">
-        <h2>BIO</h2>
+        <h2 className="bioTitle">BIO</h2>
         <p>
           Wednesday Addams is a fictional character from the Addams Family
           multimedia franchise created by American cartoonist Charles Addams.
@@ -18,6 +23,16 @@ const About = () => {
           (2022).
         </p>
       </main>
+      <footer className="footer-vertical">
+        <div className="socialIcons">
+          <SlSocialTwitter className="child"/>
+          <SlSocialFacebook className="child"/>
+          <SlSocialInstagram className="child"/>
+          <SlSocialGithub className="child"/>
+        </div>
+
+        <div class="copyright">&copy; Copyright 2023</div>
+      </footer>
     </div>
   );
 };

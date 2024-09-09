@@ -5,4 +5,36 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    color:white;
+    .bioTitle{
+color:orange;
+    }
 }
+.footer-vertical{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding: 2rem;
+        .socialIcons {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        gap: 1rem;
+        bottom: 1rem;
+        font-size: 3rem;
+    .child{
+        border:1px solid white;
+        padding: 0.6rem;
+        border-radius: 50%;
+        background-color: white;
+        color:black;
+    }
+      }
+      .copyright{
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        writing-mode: vertical-lr;
+        color:white;
+      }
+    }
