@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 const MyNavbar = () => {
   return (
     <div>
-      <Navbar expand="lg" bg="light">
+      <Navbar expand="lg">
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
