@@ -2,6 +2,7 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import notFound from "../../assets/img/notFound.jpeg"
+import "./NotFound.css"
 
 const NotFound = () => {
     const navigateee =useNavigate()
