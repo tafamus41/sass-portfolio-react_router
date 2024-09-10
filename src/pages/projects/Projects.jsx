@@ -29,13 +29,13 @@ const Projects = () => {
           <div class="projects__item col-lg-12 col-xl-6 col-xxl-4 my-3">
             <img src={project3} alt="My Project" />
           </div>
-          <div class="projects__item col-lg-12 col-xl-6 col-xxl-4">
+          <div class="projects__item col-lg-12 col-xl-6 col-xxl-4 my-3">
             <img src={project4} alt="My Project" />
           </div>
-          <div class="projects__item col-lg-12 col-xl-6 col-xxl-4">
+          <div class="projects__item col-lg-12 col-xl-6 col-xxl-4 my-3">
             <img src={project5} alt="My Project" />
           </div>
-          <div class="projects__item col-lg-12 col-xl-6 col-xxl-4">
+          <div class="projects__item col-lg-12 col-xl-6 col-xxl-4 my-3">
             <img src={project6} alt="My Project" />
           </div>
         </div>

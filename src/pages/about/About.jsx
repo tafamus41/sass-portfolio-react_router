@@ -7,7 +7,7 @@ import { SlSocialGithub } from "react-icons/sl";
 
 const About = () => {
   return (
-    <div>
+    <>
       <div className="bio">
         <h2 className="bioTitle">BIO</h2>
         <p>
@@ -24,50 +24,50 @@ const About = () => {
         </p>
       </div>
       <main class="about">
-      <div class="about__container">
-        <div class="about__job">
-          <h2 class="text-secondary">2020 - 2021</h2>
-          <h3>CLARUSWAY</h3>
-          <h6>Instructor & Full Stack Developer</h6>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
-            vero dolores eum ut, culpa ullam quis quasi exercitationem in
-            adipisci.
-          </p>
+        <div class="about__container">
+          <div class="about__job">
+            <h2 class="text-secondary">2020 - 2021</h2>
+            <h3>CLARUSWAY</h3>
+            <h6>Instructor & Full Stack Developer</h6>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              vero dolores eum ut, culpa ullam quis quasi exercitationem in
+              adipisci.
+            </p>
+          </div>
+          <div class="about__job">
+            <h2 class="text-secondary">2019 - 2020</h2>
+            <h3>Google</h3>
+            <h6>Front End Developer</h6>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              vero dolores eum ut, culpa ullam quis quasi exercitationem in
+              adipisci.
+            </p>
+          </div>
+          <div class="about__job">
+            <h2 class="text-secondary">2017 - 2019</h2>
+            <h3>The Best Websites Co.</h3>
+            <h6>Front End Developer</h6>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              vero dolores eum ut, culpa ullam quis quasi exercitationem in
+              adipisci.
+            </p>
+          </div>
         </div>
-        <div class="about__job">
-          <h2 class="text-secondary">2019 - 2020</h2>
-          <h3>Google</h3>
-          <h6>Front End Developer</h6>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
-            vero dolores eum ut, culpa ullam quis quasi exercitationem in
-            adipisci.
-          </p>
-        </div>
-        <div class="about__job">
-          <h2 class="text-secondary">2017 - 2019</h2>
-          <h3>The Best Websites Co.</h3>
-          <h6>Front End Developer</h6>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
-            vero dolores eum ut, culpa ullam quis quasi exercitationem in
-            adipisci.
-          </p>
-        </div>
-      </div>
-    </main>
+      </main>
       <footer className="footer-vertical">
         <div className="socialIcons">
-          <SlSocialTwitter className="child"/>
-          <SlSocialFacebook className="child"/>
-          <SlSocialInstagram className="child"/>
-          <SlSocialGithub className="child"/>
+          <SlSocialTwitter className="child" />
+          <SlSocialFacebook className="child" />
+          <SlSocialInstagram className="child" />
+          <SlSocialGithub className="child" />
         </div>
 
         <div class="copyright">&copy; Copyright 2023</div>
       </footer>
-    </div>
+    </>
   );
 };
 
