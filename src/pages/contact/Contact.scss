@@ -1,0 +1,46 @@
+.contact {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h2{
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+    &__list{
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 1.5rem;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      .text-adres{
+          color: orange;
+      }
+    }
+  }
+  .footer-middle{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    .socialIcons {
+        display: flex;
+        gap: 1rem;
+        font-size: 3rem;
+    .child{
+        border:1px solid white;
+        padding: 0.6rem;
+        border-radius: 50%;
+        background-color: white;
+        color:black;
+    }
+      }
+    }
+
+  

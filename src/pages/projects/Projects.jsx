@@ -11,9 +11,10 @@ import project4 from "../../assets/img/project-4.jpg";
 import project5 from "../../assets/img/project-5.jpg";
 import project6 from "../../assets/img/project-6.jpg";
 
+
 const Projects = () => {
   return (
-    <div>
+    <div className="projectsPage">
       <div class="project-bgImg"></div>
       <div class="projects__bio-image">
         <h1 className="text-center text-white">My Projects</h1>

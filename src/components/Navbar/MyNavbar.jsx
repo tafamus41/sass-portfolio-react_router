@@ -34,7 +34,7 @@ const MyNavbar = () => {
                 MY PROJECTS
               </NavLink>
               <NavLink
-                style={({ isActive }) => ({ color: isActive && "red" })}
+                style={({ isActive }) => ({ color: isActive && "orange" })}
                 className="nav-link"
                 to="/contact"
               >
