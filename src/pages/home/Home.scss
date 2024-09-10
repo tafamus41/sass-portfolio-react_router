@@ -31,12 +31,19 @@
     display: flex;
     gap:0.5rem;
     font-size: 3rem;
+    
     .child{
         border:1px solid white;
         padding: 0.6rem;
         border-radius: 50%;
         background-color: white;
         color:black;
+        cursor:pointer;
+        &:hover{
+          color:white;
+          background-color: orange;
+          
+        }
     }
 }
 }

@@ -4,7 +4,10 @@ import { SlSocialTwitter } from "react-icons/sl";
 import { SlSocialFacebook } from "react-icons/sl";
 import { SlSocialInstagram } from "react-icons/sl";
 import { SlSocialGithub } from "react-icons/sl";
+import { useNavigate } from "react-router-dom";
 const Home = () => {
+  const navigate=useNavigate()
+
   return (
     <div>
       <main className="homePage">
@@ -16,10 +19,10 @@ const Home = () => {
       </main>
       <footer className="footer-horizontal">
         <div className="socialIcons">
-          <SlSocialTwitter className="child"/>
-          <SlSocialFacebook className="child"/>
-          <SlSocialInstagram className="child"/>
-          <SlSocialGithub className="child"/>
+          <SlSocialTwitter className="child" onClick={()=>navigate("/#twitter")}/>
+          <SlSocialFacebook className="child" onClick={()=>navigate("/#facebook")}/>
+          <SlSocialInstagram className="child" onClick={()=>navigate("/#instagram")}/>
+          <SlSocialGithub className="child" onClick={()=>navigate("/#github")}/>
         </div>
 
         <div class="copyright">&copy; Copyright 2023</div>

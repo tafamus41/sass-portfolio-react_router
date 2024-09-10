@@ -28,6 +28,12 @@ color:orange;
         border-radius: 50%;
         background-color: white;
         color:black;
+        cursor:pointer;
+        &:hover{
+          color:white;
+          background-color: orange;
+          
+        }
     }
       }
       .copyright{
