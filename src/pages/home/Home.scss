@@ -18,34 +18,34 @@
     color: red;
   }
 }
-.footer-horizontal {
-  height: 10vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  padding: 1rem;
-  .copyright{
-    color:white;
-  }
-  .socialIcons {
-    display: flex;
-    gap:0.5rem;
-    font-size: 3rem;
+// .footer{
+//   height: 10vh;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: flex-end;
+//   padding: 1rem;
+//   .copyright{
+//     color:white;
+//   }
+//   .socialIcons {
+//     display: flex;
+//     gap:0.5rem;
+//     font-size: 3rem;
     
-    .child{
-        border:1px solid white;
-        padding: 0.6rem;
-        border-radius: 50%;
-        background-color: white;
-        color:black;
-        cursor:pointer;
-        &:hover{
-          color:white;
-          background-color: orange;
+//     .child{
+//         border:1px solid white;
+//         padding: 0.6rem;
+//         border-radius: 50%;
+//         background-color: white;
+//         color:black;
+//         cursor:pointer;
+//         &:hover{
+//           color:white;
+//           background-color: orange;
           
-        }
-    }
-}
-}
+//         }
+//     }
+// }
+// }
 
 

@@ -7,6 +7,7 @@ import About from "../pages/about/About";
 import Projects from "../pages/projects/Projects";
 import Contact from "../pages/contact/Contact";
 import NotFound from "../components/Error/NotFound";
+import Footer from "../components/Footer/Footer";
 
 const Router = () => {
   return (
@@ -20,6 +21,7 @@ const Router = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

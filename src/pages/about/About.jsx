@@ -1,9 +1,7 @@
 import React from "react";
 import "./About.scss";
-import { SlSocialTwitter } from "react-icons/sl";
-import { SlSocialFacebook } from "react-icons/sl";
-import { SlSocialInstagram } from "react-icons/sl";
-import { SlSocialGithub } from "react-icons/sl";
+// import Footer from "../../components/Footer/Footer";
+
 
 const About = () => {
   return (
@@ -57,16 +55,7 @@ const About = () => {
           </div>
         </div>
       </main>
-      <footer className="footer-vertical">
-        <div className="socialIcons">
-          <SlSocialTwitter className="child" />
-          <SlSocialFacebook className="child" />
-          <SlSocialInstagram className="child" />
-          <SlSocialGithub className="child" />
-        </div>
-
-        <div class="copyright">&copy; Copyright 2023</div>
-      </footer>
+      {/* <Footer/> */}
     </>
   );
 };

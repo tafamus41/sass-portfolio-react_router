@@ -1,9 +1,7 @@
 import React from "react";
 import "./Contact.scss";
-import { SlSocialTwitter } from "react-icons/sl";
-import { SlSocialFacebook } from "react-icons/sl";
-import { SlSocialInstagram } from "react-icons/sl";
-import { SlSocialGithub } from "react-icons/sl";
+// import Footer from "../../components/Footer/Footer";
+
 
 const Contact = () => {
   return (
@@ -27,16 +25,7 @@ const Contact = () => {
           </div>
         </div>
       </main>
-      <footer className="footer-middle">
-        <div className="socialIcons">
-          <SlSocialTwitter className="child" />
-          <SlSocialFacebook className="child" />
-          <SlSocialInstagram className="child" />
-          <SlSocialGithub className="child" />
-        </div>
-
-        <div class="copyright">&copy; Copyright 2023</div>
-      </footer>
+      {/* <Footer/> */}
     </div>
   );
 };
